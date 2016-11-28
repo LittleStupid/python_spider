@@ -1,3 +1,8 @@
+first of all, install requirements:
+
+    pip3 install  -r requirements.txt
+
+
 run this to get headers from [here](http://h.bilibili.com/)
 
     python3 comic.py beginIndex endIndex
