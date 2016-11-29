@@ -2,6 +2,10 @@ first of all, install requirements:
 
     pip3 install  -r requirements.txt
 
+PhantomJS is needed, and you must locate it as the right executable_path in the code(replace /usr/local/bin/phantomjs with your location of PhantomJS):
+
+    driver = webdriver.PhantomJS(executable_path='/usr/local/bin/phantomjs')
+
 
 run this to get headers from [here](http://h.bilibili.com/)
 
